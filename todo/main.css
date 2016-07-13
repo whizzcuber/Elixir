@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.todos{
+  height: 500px;
+  width: 300px;
+  background-color: gainsboro;
+  border: 4px solid slategray;
+}
+.todos input{
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 30px;
+  width: 200px;
+  background-color: slategray;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: white;
+}
+.todos button{
+  height: 30px;
+  width: 55px;
+  font-size: 14px;
+}
+#mytodos{
+  background-color: slategray;
+  height: 350px;
+  width: 262px;
+  margin-left: 20px;
+  margin-top: 30px;
+  color: white;
+  overflow: scroll;
+}
+#clear{
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 120px;
+  font-size: 14px;
+}

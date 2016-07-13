@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="command.css" >
+  </head>
+  <body>
+    <div class="calc_body">
+      <div class="empty" id ="canceldiv">C</div>
+      <button id="cancel"  onclick="cancel();"name="button">C</button>
+      <input type="text" name="name" id="answer" value=""><br><br>
+      <div class="empty">7</div>
+      <button  name="button"  onclick="myfunct('7');">7</button>
+      <div class="empty">8</div>
+      <button  name="button"  onclick="myfunct('8'); ">8</button>
+      <div class="empty">9</div>
+      <button  name="button"  onclick="myfunct('9');">9</button>
+      <div class="empty">+</div>
+      <button  name="button" onclick="myfunct('+');">+</button><br><br>
+      <div class="empty">4</div>
+      <button  name="button"  onclick="myfunct('4');">4</button>
+      <div class="empty">5</div>
+      <button  name="button"  onclick="myfunct('5');">5</button>
+      <div class="empty">6</div>
+      <button  name="button"  onclick="myfunct('6');">6</button>
+      <div class="empty">-</div>
+      <button  name="button" onclick="myfunct('-');">-</button><br><br>
+      <div class="empty">1</div>
+      <button  name="button"  onclick="myfunct('1');">1</button>
+      <div class="empty">2</div>
+      <button  name="button"  onclick="myfunct('2');">2</button>
+      <div class="empty">3</div>
+      <button  name="button"  onclick="myfunct('3');">3</button>
+      <div class="empty">*</div>
+      <button  name="button" onclick="myfunct('*');">*</button><br><br>
+      <div class="empty">0</div>
+      <button  name="button"  onclick="myfunct('0');">0</button>
+      <div class="empty">.</div>
+      <button  name="button" onclick="myfunct('.');">.</button>
+      <div class="empty">=</div>
+      <button  name="button" onclick="myfunct('=');">=</button>
+      <div class="empty" >/</div>
+      <button  name="button" onclick="myfunct('/');">/</button>
+
+    </div>
+
+
+
+    <script src="command.js" type="text/javascript"></script>
+  </body>
+</html>
